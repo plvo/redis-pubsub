@@ -1,0 +1,13 @@
+[package]
+name = "redis-rust-pubsub"
+version = "0.1.0"
+edition = "2021"
+authors = ["plvo"]
+repository = "https://github.com/plvo/rust-redis-pubsub"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.36.0", features = ["full"] }
+redis = "0.25.3"
+rand = "0.8.5"
